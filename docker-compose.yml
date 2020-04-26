@@ -1,11 +1,20 @@
 version: '3.7'
 services:
+  mysql:
+    build: ./db
+    ports:
+      - target: 3306
+        published: 3306
+    environment:
+    - MYSQL_ROOT_PASSWORD=root
   service1:
     build: ./service1
     ports:
       - target: 5000
         published: 5000
         protocol: tcp
+    depends_on:
+      - mysql
   service2:
     build: ./service2
     ports:
