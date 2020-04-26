@@ -15,12 +15,12 @@ services:
   service3:
     build: ./service3
     ports:
-        - target: 5002
+      - target: 5002
         published: 5002
         protocol: tcp
   service4:
     build: ./service4
     ports:
-        - target: 5003
+      - target: 5003
         published: 5003
         protocol: tcp
