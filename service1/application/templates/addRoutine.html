@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block body_content %}
+<a href="{{ url_for('home') }}">Home Page</a>
+<div class='form'>
+    <form method='POST' action=''>
+        {{ form.hidden_tag() }}
+        {{ form.exercise.label }}
+        {{ form.exercise }}
+        {% if form.exercise.errors %}
+            <div class="error">
+                {% for error in form.exercise.errors %}
+                    <span>{{ error }}</span>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <br>
+        {{ form.sing.label }}
+        {{ form.sing }}
+        {% if form.sing.errors %}
+            <div class="error">
+                {% for error in form.sing.errors %}
+                    <span>{{ error }}</span>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <br>
+        {{ form.dance.label }}
+            {{ form.dance }}
+            {% if form.dance.errors %}
+                <div class='error'>
+                    {% for error in form.dance.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+        <div class='form_group'>
+            {{ form.submit }}
+        </div>
+    </form>
+</div>
+{% endblock body_content %}
