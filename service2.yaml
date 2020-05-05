@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service2
+  labels:
+    app: service2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service2
+  template:
+    metadata:
+      labels:
+        app: service2
+    spec:
+      containers:
+      - name: service2
+        image: energise_app_service2
+        ports:
+        - name: http-port
+          containerPort: 5001
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+name: service2-cluster
+spec:
+type: LoadBalancer
+ports:
+    - port: 5000
+    targetPort: 5000
+selector:
+    app: service2

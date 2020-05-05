@@ -5,8 +5,8 @@ services:
     ports:
       - target: 3306
         published: 3306
-    environment:
-    - MYSQL_ROOT_PASSWORD=root
+    env_file:
+     - ./db.env
   service1:
     build: ./service1
     ports:
