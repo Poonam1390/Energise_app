@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service4
-        image: energise_app_service4
+        image: martaniblett/energise_app_service4:latest
         ports:
         - name: http-port
         containerPort: 5003

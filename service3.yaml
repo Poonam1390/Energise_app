@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service3
-        image: energise_app_service3
+        image: martaniblett/energise_app_service3:latest
         ports:
         - name: http-port
         containerPort: 5002
