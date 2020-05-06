@@ -8,7 +8,9 @@
    
 [Project Management](#PM)
    * [Trello Board](#trello)  
-   * [Risk Assessment](#RA)   
+   * [Risk Assessment](#RA)
+   * [MoSCoW Priority Assessment](#MPA)
+   
 
 [Design Architecture](#architecture)
    * [Entity Relationship Diagrams](#erd)
@@ -60,12 +62,14 @@ The final version of the Energise App will be accessible to all users who will h
 [Trello](https://trello.com/b/BuIqKvQV/energise-app) 
 ![Trello](/Documentation_Images/energise_app_trello.png)
 
-
-
 <a name="RA"></a>
 ### Risk Assessment 
 
 ![Risk](/Documentation_Images/risk_register_energise_app.jpg)
+
+<a name="MPA"></a>
+### MoSCoW Priority Assessment
+![MoSCoW](/Documentation_Images/energise_app_MoSCoW_Priority_Assessment_Table.jpg)
   
 <a name="architecture"></a>
 ## Design Architecture
@@ -88,6 +92,8 @@ The updated version of the Energise App will be allow users to register and to b
 <a name="testing"></a>
 ## Testing
 Due to time constraints only unit testing was developed, this area needs more attention at the later stages of app development.
+
+Pytest has been used for testing.Test coverage for the backend is % 
 
 Test coverage and example of test report:
 
@@ -113,4 +119,4 @@ Working on this project has highlighted the importance of:
 3. The different component of CI Pipeline and their role in software development and deployment
 4. Using different resources and sharing knowledge to solve problems as a team  
 
-And, finally - it's amazing how much we have learned in the last 12 weeks! Ben and Luke - thank you for sharing your knowledge and continous support!
+And, finally - it's amazing how much we have learned in the last 12 weeks! Ben and Luke - thank you for sharing your knowledge and the continous support!
