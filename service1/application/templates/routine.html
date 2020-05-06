@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 {% block body_content %}
 <a href="{{ url_for('home') }}">Home Page</a>
-<h1>Please {{ task }}</h1>
-<h1>for {{ times }} minutes</h1>
-<h1> doing the {{ routine }}</h1>
+<h1 style="color:Tomato;">Please {{ task }}</h1>
+<h1 style="color:slateblue;">for {{ times }} minutes</h1>
+<h1 style="color:violet;"> Do the {{ routine }} and have fun whilst at it, {{ task  }}ing</h1>
 {% endblock body_content %}
