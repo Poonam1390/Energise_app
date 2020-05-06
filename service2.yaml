@@ -20,17 +20,3 @@ spec:
         ports:
         - name: http-port
           containerPort: 5001
-
----
-
-apiVersion: v1
-kind: Service
-metadata:
-name: service2-cluster
-spec:
-type: LoadBalancer
-ports:
-    - port: 5000
-    targetPort: 5000
-selector:
-    app: service2
