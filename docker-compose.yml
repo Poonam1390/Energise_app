@@ -1,14 +1,14 @@
 version: '3.7'
 services:
   mysql:
-    image: umpoonam/energise_app_mysql:V1
+    image: umpoonam/energise_app_mysql:latest
     ports:
       - target: 3306
         published: 3306
     env_file:
      - ./db.env
   service1:
-    image: umpoonam/energise_app_service1:V1
+    image: umpoonam/energise_app_service1:latest
     ports:
       - target: 5000
         published: 5000
@@ -16,19 +16,19 @@ services:
     depends_on:
       - mysql
   service2:
-    image: umpoonam/energise_app_service2:V1
+    image: umpoonam/energise_app_service2:latest
     ports:
       - target: 5001
         published: 5001
         protocol: tcp
   service3:
-    image: umpoonam/energise_app_service3:V1
+    image: umpoonam/energise_app_service3:latest
     ports:
       - target: 5002
         published: 5002
         protocol: tcp
   service4:
-    image: umpoonam/energise_app_service4:V1
+    image: umpoonam/energise_app_service4:latest
     ports:
       - target: 5003
         published: 5003
