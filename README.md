@@ -35,7 +35,8 @@ General:
 To develop, test and deploy a multi service Flask application using the concept, technologies and tools of Continous Integration Pipeline.  
 
 Specific:
-Motivation: the Covid-19 lockdown has a negative impact on most people's physical activity levels. The ENERGISE APP will help people of all ages and abilities to engage in a simple, quick, fun activity.
+
+Motivation: The Covid-19 lockdown has a negative impact on most people's physical activity levels. The ENERGISE APP will help people of all ages and abilities to engage in a simple, quick, fun activity.
     
 
 
