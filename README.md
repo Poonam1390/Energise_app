@@ -104,7 +104,8 @@ The updated version of the Energise App will be allow users to register and to b
 Due to time constraints only unit testing was developed, this area needs more attention at the later stages of app development.
 The app was tested at every stage of development which followed the Test-driven development.
 
-Pytest has been used for testing. Test coverage for the backend is 57% 
+Pytest has been used for testing. Test coverage for the backend is 57%.
+
 Test coverage report:
 ![Test_Coverage](/Documentation_Images/Testcoverage.PNG)
    
