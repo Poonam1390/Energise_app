@@ -106,7 +106,7 @@ The app was tested at every stage of development which followed the Test-driven 
 
 Pytest has been used for testing. Test coverage for the backend is 57% 
 Test coverage report:
-![Test_Coverage](/Documentation_Images/.png)
+![Test_Coverage](/Documentation_Images/Testcoverage.PNG)
    
 <a name="depl"></a>
 ## Deployment
