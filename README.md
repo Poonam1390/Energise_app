@@ -96,16 +96,17 @@ The updated version of the Energise App will be allow users to register and to b
 ## Development and Functionality
 (https://github.com/Poonam1390/Energise_app) - Version Control System
 
-![App]()
+![App](/Documentation_Images/Taskgenerator.png)
+![Display](/Documentation_Images/RoutineDisplay.png)
  
 <a name="testing"></a>
 ## Testing
 Due to time constraints only unit testing was developed, this area needs more attention at the later stages of app development.
+The app was tested at every stage of development which followed the Test-driven development.
 
-Pytest has been used for testing.Test coverage for the backend is % 
-
-Test coverage and example of test report:
-
+Pytest has been used for testing. Test coverage for the backend is 57% 
+Test coverage report:
+![Test_Coverage](/Documentation_Images/.png)
    
 <a name="depl"></a>
 ## Deployment
