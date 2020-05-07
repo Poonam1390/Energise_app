@@ -43,7 +43,7 @@ Motivation: the Covid-19 lockdown has a negative impact on most people's physica
 ### Minimum Viable Product
 This project delivers the first version of the app that allows the users to randomly generate an activity to engage in.
 
-Software development: Python, HTML
+Software development: Python, HTML using FLASK framework
 
 Cloud platform: GCP
 
@@ -51,16 +51,20 @@ Micro-service architecture: core service - service1 - front end, SQL db, Service
 
 Project management: Trello board
 
-Version Control System: git
+Version Control System: GitHub
 
 CI server: Jenkins
 
-Deploymentcontainerisation and an orchestration tools: Docker Compose, Docker Swarm  
+Deployment containerisation and orchestration tools: Docker, Docker Compose and Docker Swarm  
 
 The final version of the Energise App will be accessible to all users who will have an option to build their own activity repositories as registered users or will be able to use the provided content. 
 
 <a name="PM"></a>
 ## Project Management 
+
+<a name="Project_Planning"></a>
+### Initial planning
+[Planning Document](https://docs.google.com/document/d/1SVWyZGW0GlgJG2k3dfGB7IPeu5MU-PpiiXjor4kx6kY/edit?ts=5e8edf23)
 
 <a name="trello"></a>
 ### Trello Board
@@ -94,7 +98,6 @@ The updated version of the Energise App will be allow users to register and to b
 
 ![App]()
  
- 
 <a name="testing"></a>
 ## Testing
 Due to time constraints only unit testing was developed, this area needs more attention at the later stages of app development.
@@ -125,4 +128,6 @@ Working on this project has highlighted the importance of:
 3. The different component of CI Pipeline and their role in software development and deployment
 4. Using different resources and sharing knowledge to solve problems as a team  
 
-And, finally - it's amazing how much we have learned in the last 12 weeks! Ben and Luke - thank you for sharing your knowledge and the continous support!
+
+## Acknowledgments
+And, finally - it's amazing how much we have learned in the last 12 weeks! Ben and Luke - thank you for sharing your knowledge and the continuous support!
