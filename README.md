@@ -44,19 +44,14 @@ Motivation: The Covid-19 lockdown has a negative impact on most people's physica
 ### Minimum Viable Product
 This project delivers the first version of the app that allows the users to randomly generate an activity to engage in.
 
-Software development: Python, HTML using FLASK framework
-
-Cloud platform: GCP
-
-Micro-service architecture: core service - service1 - front end, SQL db, Services 2-4 - back end, random object generation
-
-Project management: Trello board
-
-Version Control System: GitHub
-
-CI server: Jenkins
-
-Deployment containerisation and orchestration tools: Docker, Docker Compose and Docker Swarm  
+Tools and technologies:
+- Software development: Python, HTML using FLASK framework
+- Cloud platform: GCP
+- Micro-service architecture: core service - service1 - front end, SQL db, Services 2-4 - back end, random object generation
+- Project management: Trello board
+- Version Control System: GitHub
+- CI server: Jenkins
+- Deployment containerisation and orchestration tools: Docker, Docker Compose and Docker Swarm  
 
 The final version of the Energise App will be accessible to all users who will have an option to build their own activity repositories as registered users or will be able to use the provided content. 
 
