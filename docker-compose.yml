@@ -8,6 +8,7 @@ services:
     env_file:
      - ./db.env
   service1:
+    build: ./service1     
     image: umpoonam/energise_app_service1:V1
     ports:
       - target: 5000
